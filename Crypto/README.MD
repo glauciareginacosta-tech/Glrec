@@ -1,4 +1,4 @@
-#Sistema de Criptografia  de Arquivos
+# Sistema de Criptografia  de Arquivos
 
 O FileEncryptor é um utilitário em Python projetado para proteger a privacidade e segurança de dados locais. O sistema realiza a criptografia e descriptografia em lote de todos os arquivos contidos em um diretório específico utilizando criptografia simétrica de alta segurança (AES-128 em modo CBC com autenticação HMAC / Fernet).
 ---
@@ -15,7 +15,7 @@ O FileEncryptor é um utilitário em Python projetado para proteger a privacidad
 - Python 3.8 ou superior.
 - Biblioteca `cryptography`.
 ---
-##bInstalação das dependências
+## Instalação das dependências
  - cryptography
 ---
 ## Estrutura do Código
@@ -41,9 +41,9 @@ Efetue a execução das funções da criptografia: 2 e 4 e posteriormente execut
  - Backup: Crie uma pasta para testar o sistema ou faça backup dos seus dados antes de rodar o script em pastas com informações críticas;
  - Segurança da Chave: Sem a chave correta, a reversão dos arquivos através do processo de descriptografia é computacionalmente inviável. Ou seja, realize a criptografia e descriptografia deste sistema.
 -----------------------------------------------
-IN ENGLISH
+# IN ENGLISH
 
-#File Encryption System
+# File Encryption System
 The FileEncryptor is a Python utility designed to protect the privacy and security of local data. The system performs batch encryption and decryption of all files contained within a specified directory using high-security symmetric encryption (AES-128 in CBC mode with HMAC authentication / Fernet).
 ---
 ## Features
