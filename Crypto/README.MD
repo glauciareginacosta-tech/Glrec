@@ -16,8 +16,7 @@ Pré-requisitos
 
 Instalação das dependências
 
-```bash
-pip install cryptography
+ - cryptography
 
 Estrutura do Código
 O script contém as seguintes funções principais:
@@ -57,8 +56,8 @@ Prerequisites
     - cryptography library.
     
 Installing Dependencies
-``Bash
-pip install cryptography
+
+cryptography
 
 Code Structure
 The script contains the following main functions:
