@@ -24,14 +24,13 @@ Instalação das dependências
 Estrutura do Código
 O script contém as seguintes funções principais:
 
+- gerar_chave(): Gera uma chave de criptografia Fernet e a salva em um arquivo local (chave.key).
 
-  - gerar_chave(): Gera uma chave de criptografia Fernet e a salva em um arquivo local (chave.key).
+- carregar_chave(): Lê e retorna a chave armazenada em chave.key.
 
-  - carregar_chave(): Lê e retorna a chave armazenada em chave.key.
+- criptografar_pasta(caminho_pasta, chave): Percorre todos os arquivos da pasta informada e substitui o conteúdo original pelo conteúdo cifrado.
 
-  - criptografar_pasta(caminho_pasta, chave): Percorre todos os arquivos da pasta informada e substitui o conteúdo original pelo conteúdo cifrado.
-
-  .- descriptografar_pasta(caminho_pasta, chave): Lê os arquivos cifrados da pasta e restaura o conteúdo original usando a chave fornecida.
+- descriptografar_pasta(caminho_pasta, chave): Lê os arquivos cifrados da pasta e restaura o conteúdo original usando a chave fornecida.
     
 Como Usar
 
